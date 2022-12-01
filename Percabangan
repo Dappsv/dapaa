@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication14;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author mokletgaming
+ */
+public class JavaApplication14 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        System.out.println("Harga hotel per malam");
+        int grade = 0;
+        grade = input.nextInt();
+        switch (grade) {
+            case 29:
+                System.out.println("400,000");
+                break;
+            case 30:
+                System.out.println("450,000");
+                break;
+            case 31:
+                System.out.println("500,000");
+                break;
+
+        }
+    }
+}
